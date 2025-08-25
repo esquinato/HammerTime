@@ -21,9 +21,22 @@
 		F113A0CA2E5C4E0500ABA2E5 /* HammerTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HammerTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F13C93072E5D2224000B5716 /* Exceptions for "HammerTime" folder in "HammerTime" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F113A0AE2E5C4E0400ABA2E5 /* HammerTime */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F113A0B12E5C4E0400ABA2E5 /* HammerTime */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F13C93072E5D2224000B5716 /* Exceptions for "HammerTime" folder in "HammerTime" target */,
+			);
 			path = HammerTime;
 			sourceTree = "<group>";
 		};
@@ -209,6 +222,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HammerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = 9YZ66NTGZG;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = HammerTime/Info.plist;
@@ -235,6 +249,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HammerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = 9YZ66NTGZG;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = HammerTime/Info.plist;
